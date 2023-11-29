@@ -20,7 +20,7 @@ void bubbleSort(int arr[], int n)
        compare adjacent elements and swap them if necessary. */
         for(j=0; j < n-i-1; j++)
         {
-            if (arr[j] > arr[j+1]) //if (arr[j] > arr[j+1])
+            if (arr[j] > arr[j+1]) //orden ascendente (arr[j] > arr[j+1])
             {
                 cambiar_posicion(&arr[j], &arr[j+1]);
             }
@@ -31,7 +31,7 @@ void bubbleSort(int arr[], int n)
 int print_array(int arr[], int n)
 {
     int i;
-    for(i=0; i<n ; i++) //orden descendente for(i=4; i>= n-1; i--)  // (i=0; i<n-1; i++)
+    for(i=0; i<n ; i++) //orden ascendente  -> (i=0; i<n ; i++)
     {
         printf("%d ", arr[i]);
     }
