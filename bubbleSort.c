@@ -16,8 +16,6 @@ void bubbleSort(int arr[], int n)
     int i, j;
     for (i = 0; i < n - 1; i++)        //bucle para recorrer el array, es n-1 por el limite del arr iniciamos en 0 hasta 5, pero 5 - 1 = 4
     {
-       /* The line `for(j=0; j < n-i-1; j++)` is a nested loop that iterates over the array elements to
-       compare adjacent elements and swap them if necessary. */
         for(j=0; j < n-i-1; j++)
         {
             if (arr[j] > arr[j+1]) //orden ascendente (arr[j] > arr[j+1])
