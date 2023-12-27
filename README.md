@@ -6,4 +6,4 @@
 * Tipo de dato void
 * enum
 * Declaración de variables
-* 
+* Preprocessor directives: Define
