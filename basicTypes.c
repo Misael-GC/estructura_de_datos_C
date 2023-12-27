@@ -26,3 +26,16 @@ Basic Types:
                             float 4 Bytes 1.2E-38 to 3.4E+386 ( 6 decimal places)
                             double 8 Bytes 2.3E-308 to1.7E+30815 (15 decimal places)
                             long double 10 Bytes 3.4E-4932 to 1.1E+493219 (19 decimal places)
+            void : Especifica que no hay valor disponible, se usa en 3 escenarios
+            1. Función retorna un tipo de dato void, no retorna ningun valor
+            void: No hay valor disponible
+
+            Función que no retorna nada.
+            void funcion()
+
+            2. Función tiene argumentos de tipo void
+            Función con argumentos/parametros vacios
+            int funcion(void)
+
+            3. Puntero o apuntador. Va a la dirección de un objeto pero no le importa el tipo de dato que tenga el objeto.
+            
