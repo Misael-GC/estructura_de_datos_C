@@ -7,3 +7,11 @@
 * enum
 * Declaración de variables
 * Preprocessor directives: Define
+* IF anidado
+* switch
+* bucle while
+* do while
+* for
+* break
+* expresion continue
+* expresión goto
