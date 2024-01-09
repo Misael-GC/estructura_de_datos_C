@@ -2,21 +2,25 @@
 
 int power(int base, int n);
 
-int main()
+int main() 
 {
-     int i;
-     for (i = 0; i < 10; i++)
-     {
-        printf("n= %d El resultado de la potencia = %d\n", i, power(2,i));
-     }
-     return 0;
+    int n;
+    n = 3;
+    
+    printf("n = %d resultado de la potencia = %d\n", n, power(2,n));
+    
+
+    return 0;
 }
 
 int power(int base, int n)
 {
     int p;
-    for(p = 1; n>0; n--){
+    for (p = 1; n > 0; n--)
+    {
         p = p * base;
+        printf("el vaor temporal de n es %d\n", n);
     }
+
     return p;
 }
