@@ -1,17 +1,20 @@
 #include <stdio.h>
-void demo();
+int a,b;
+
+a = 100;
+b = 100;
+
+void add(int a, int b);
 
 int main()
 {
-    demo();
+    add(100, 100);
 
     return 0;
 }
 
-void demo(){
-    int a,b,sum;
-    a = 100;
-    b=100;
-    sum = a + b;
-    printf("The value of sum is %d\n", sum);
+void add(int a, int b){
+    int add;
+    add = a+b;
+    printf("The result is: %d\n", add);
 }
