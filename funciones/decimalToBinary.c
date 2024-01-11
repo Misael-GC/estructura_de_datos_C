@@ -7,7 +7,7 @@
 
 int binaryNumber[12],n,i;
 
-main()
+int main()
 {   
     system("cls");
     system("color 9F");
@@ -18,6 +18,7 @@ main()
     for ( i = 0; n > 0; i++)
     {
         binaryNumber[i]= n%2;
+        printf("***** %d",binaryNumber[i]);
         n = n/2;
     }
 
@@ -26,8 +27,6 @@ main()
     {
         printf("%d",binaryNumber[i]);
     }
-    
-    
 
     return 0;
 }
