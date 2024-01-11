@@ -19,7 +19,7 @@ int main()
     {
         strcat(string1, string2);
         printf("Ingresaste dos cosas distintas, si las unimos el resultado es> %s\n", string1);
-
+ 
     }    
     
     

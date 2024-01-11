@@ -15,3 +15,5 @@
 * break
 * expresion continue
 * expresión goto
+* Funciones
+* Bibliotecas: math.h, string.h, time.h, stdlib.h
